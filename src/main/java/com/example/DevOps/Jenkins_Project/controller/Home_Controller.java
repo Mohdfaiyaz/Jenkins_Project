@@ -22,9 +22,5 @@ public class Home_Controller {
 		return "Hi Faiyaz \n Date  "+date_time;
 	}
 	
-	@GetMapping("/time")
-	public String HomePage2() {
-		LocalTime date_time=LocalTime.now();
-		return "Hi Faiyaz \n Date & Time  "+date_time;
-	}
+
 }
