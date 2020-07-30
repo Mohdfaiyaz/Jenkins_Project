@@ -2,6 +2,7 @@ package com.example.DevOps.Jenkins_Project.controller;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,5 +20,11 @@ public class Home_Controller {
 	public String HomePage1() {
 		LocalDate date_time=LocalDate.now();
 		return "Hi Faiyaz \n Date  "+date_time;
+	}
+	
+	@GetMapping("/time")
+	public String HomePage2() {
+		LocalTime date_time=LocalTime.now();
+		return "Hi Faiyaz \n Date & Time  "+date_time;
 	}
 }
