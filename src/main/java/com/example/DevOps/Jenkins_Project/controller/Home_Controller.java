@@ -13,7 +13,7 @@ public class Home_Controller {
 	@GetMapping
 	public String HomePage() {
 		LocalDateTime date_time=LocalDateTime.now();
-		return "Hi Faiyaz \n Date & Time  "+date_time;
+		return "Hi Faiyaz,\n Date & Time  "+date_time;
 	}
 	
 	@GetMapping("/date")
