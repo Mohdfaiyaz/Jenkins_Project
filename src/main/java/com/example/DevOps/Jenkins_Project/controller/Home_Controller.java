@@ -25,6 +25,7 @@ public class Home_Controller {
 	@GetMapping("/time")
 	public String HomePage3() {
 		LocalDate date_time=LocalDate.now();
+		
 		return "Hi Faiyaz \n Date  "+date_time;
 	}
 	
