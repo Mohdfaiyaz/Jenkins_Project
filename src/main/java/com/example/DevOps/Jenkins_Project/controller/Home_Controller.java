@@ -22,12 +22,11 @@ public class Home_Controller {
 		return "Hi Faiyaz \n Date  "+date_time;
 	}
 	
-	@GetMapping("/time")
-	public String HomePage3() {
-		LocalDate date_time=LocalDate.now();
-		
-		return "Hi Faiyaz \n Date  "+date_time;
-	}
+//	@GetMapping("/time")
+//	public String HomePage3() {
+//		LocalDate date_time=LocalDate.now();
+//		return "Hi Faiyaz \n Date  "+date_time;
+//	}
 	
 
 }
