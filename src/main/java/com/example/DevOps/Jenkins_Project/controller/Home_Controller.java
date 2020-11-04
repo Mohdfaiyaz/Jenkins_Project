@@ -71,7 +71,7 @@ public class Home_Controller {
        table2.addCell("table2_column6");
        table2.addCell("table2_column7");
        
-       document.add(new Paragraph("  table1 with 5 column....................."));
+       document.add(new Paragraph("  table1 with 5 column............................................................"));
        document.add(table1);
        
        document.add(new Paragraph("  table2 with 7 column............................................................"));
