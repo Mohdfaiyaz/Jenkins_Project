@@ -73,7 +73,7 @@ public class Home_Controller {
        
        document.add(table1);
        
-       document.add(new Paragraph("  table2 with 7 column............................................................"));
+       document.add(new Paragraph("  table2 with 7 column......."));
        document.add(table2);
        document.close();
        writer.close();
